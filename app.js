@@ -103,6 +103,7 @@ async function fetchPokemonPic(url) {
           pokedex.innerHTML = `<img src="${picUrl}" alt="Displayed Image" style="max-width: 100%; height: auto;">`;
   } else {
     console.log("No pic found for this Pokémon.");
+    pokedex.innerHTML ="";
   }
 }
 
@@ -179,6 +180,7 @@ async function fetchPokemonPokedex(url) {
     pokedex.innerHTML=pokedexText;
   } else {
     console.log("No English Pokédex entry found for this Pokémon.");
+    pokedex.innerHTML ="";
   }
 }
 
