@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+}
+
+#prompt {
+  margin-top: 5px;
+  font-size: 20px;
+  color: #333;
+}
+#prompt {
+  margin-top: 5px;
+  font-size: 20px;
+  color: #333;
+}
+
+@media (max-width: 600px) {
+  #prompt {
+    margin-top: 5px;
+    font-size: 5px;
+    color: #333;
+  }
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: #FFCB05;
+    text-shadow: 2px 2px #3B4CCA;
+    font-size: 2rem;
+  }
+#pokedex {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  margin-top: 5px;
+  text-align: center;
+  justify-content: center;
+  margin: auto 40px;
+}
+
+

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pokemon Prompt Generator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="icon" href="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/pokemon-icon.png" type="image/x-icon" />
+</head>
+<body>
+    <h1>I WANT TO DRAW:</h1>
+  <button onclick="imagePrompt()">An Image</button>
+  <button onclick="animationPrompt()">An Animation</button>
+  <button onclick="fokemonPrompt()">My Own Fakémon</button>
+
+  <div id="prompt"></div>
+  <div id="pokedex"></div>
+  <audio id="hiddenAudio" autoplay style="display: none">
+    <source type="audio/ogg">
+  </audio>
+  <script src="app.js"></script>
+</body>
+</html>
